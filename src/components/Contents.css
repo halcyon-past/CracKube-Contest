@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:10px;
+    margin-left:40px;
+}
+
+.menu button{
+    margin-right:20px;
+    min-width:64px;
+    height:50px;
+    border: none;
+    outline: none;
+    background-color: #1D1F25;
+    border-radius:20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    padding:10px;
+
+}
+
+.menu button.active{
+    background-color: #FFBB29;
+    color: #141518;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-left: 20px;
+    width:100vw;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+
+.nav{
+    height:100px;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #1D1F25;
+    border-bottom: rgb(255,255,255,0.15) solid 1px;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left .logo{
+    margin-left:36px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFBB29;
+}
+
+.left ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+    margin:0;
+    padding:0;
+    margin-left:50px;
+}
+
+.left li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:20px;
+}
+
+.left li:nth-child(5){
+    color:#FFBB29;
+}
+
+.right{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-right:36px;
+}
+
+.right svg{
+    margin-left:20px;
+    width:20px;
+    height:20px;
+    color: rgb(255,255,255,0.35)
+}
+
+.right img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-left:30px;
+}
+
+.nav h1{
+    font-size: 24px;
+}

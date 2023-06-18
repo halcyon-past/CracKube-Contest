@@ -1,0 +1,84 @@
+
+.Sidebar{
+    height:200px;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-color: #1D1F25;
+}
+
+.Sidebar .top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:100px;
+    font-family: 'Poppins';
+}
+
+.Sidebar h1{
+    margin-left: 40px;
+}
+
+.Sidebar .bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    height:100px;
+}
+
+.Sidebar .search{
+    border-radius:6px;
+    margin-left: 40px;
+    background-color: #282C38;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Sidebar input[type=text]{
+    height:45px;
+    width:440px;
+    background-color: #282C38;
+    border: none;
+    margin-left:10px;
+    outline: none;
+}
+
+.search svg{
+    margin-left: 10px;
+    width:30px;
+    height:30px;
+    color: rgb(255,255,255,0.35)
+}
+
+.bottom .right svg{
+    position: relative;
+    right:25px;
+    border-radius: 6px;
+    height:40px;
+    width:40px;
+    color:#757B8C;
+}
+
+.right button{
+    margin-left:10px;
+    background-color: #282C38;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    height:40px;
+    width:40px;
+}
+
+.right button.active{
+    background-color:#FFBB29;
+}
+
+.right button.active svg{
+    color:#282C38;
+}
